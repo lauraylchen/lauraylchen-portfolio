@@ -1,5 +1,6 @@
 #header {
   height: 100vh;
+  margin-bottom: 100px;
 }
 
 #banner {
@@ -9,5 +10,44 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100%;
-  padding: 150px 0;
+  padding: 200px 0;
+}
+
+.pink-portrait {
+  background-color: #FFD6D6;
+  height: 500px;
+  width: 60%;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+  position: relative;
+}
+
+.pink-portrait h1 {
+  position: absolute;
+  bottom: 130px;
+  left: -180px;
+  transform: rotate(-90deg);
+  font-size: 64px;
+}
+
+.pink-portrait h3 {
+  position: absolute;
+  bottom: 55px;
+  left: -130px;
+  transform: rotate(-90deg);
+}
+
+#banner img {
+  height: 600px;
+  position: absolute;
+  bottom: 0;
+}
+
+#banner h1, h2, h3 {
+  color: #A0BAA6;
+  font-weight: bolder;
+}
+
+#banner h2 {
+  margin-left: 350px;
 }
