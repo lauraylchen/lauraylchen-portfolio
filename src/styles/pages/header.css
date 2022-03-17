@@ -1,0 +1,13 @@
+#header {
+  height: 100vh;
+}
+
+#banner {
+  background-color: #FFF6EB;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  padding: 150px 0;
+}

@@ -1,0 +1,32 @@
+#navbar {
+  position: fixed;
+  z-index: 10;
+  padding: 20px 0;
+  background-color: #FFF6EB;
+  width: 100%;
+}
+
+#navbar a {
+  color: #271619;
+  font-weight: bold;
+}
+
+#navbar a:hover {
+  color: #A0BAA6;
+}
+
+#navbar .navbar-links {
+  flex-grow: 0;
+}
+
+#navbar .navbar-nav {
+  flex-direction: row;
+}
+
+#navbar li {
+  margin: 0 10px;
+}
+
+.navbar-brand img {
+  width: 40px;
+}
