@@ -21,7 +21,7 @@ export default function About() {
         <br></br>
         <a href="https://www.linkedin.com/in/lauraylchen/" target="_blank">
           <p>Checkout my Linkedin Profile</p>
-
+          <i class="fab fa-linkedin"></i>
         </a>
       </div>
     </div>
