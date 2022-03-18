@@ -1,3 +1,69 @@
+@media (min-width: 992px) {
+  #banner {
+    padding: 100px 0;
+  }
+
+  .center-content h1 {
+    font-size: 64px;
+  }
+
+  .vertical-text {
+    transform: rotate(-90deg);
+    bottom: 110px;
+    left: -190px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  #banner {
+    padding: 200px 0;
+  }
+
+  .center-content h1 {
+    font-size: 42px;
+  }
+
+  .center-content h2 {
+    font-size: 24px;
+  }
+
+  .center-content h3 {
+    font-size: 20px;
+  }
+
+  .about-button p {
+    font-size: 8px;
+  }
+
+  .vertical-text {
+    bottom: -120px;
+    left: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #banner {
+    padding: 200px 0;
+  }
+
+  .center-content h2 {
+    font-size: 18px;
+  }
+
+  .center-content h3 {
+    font-size: 16px;
+  }
+
+  .about-button p {
+    font-size: 6px;
+  }
+
+  .vertical-text {
+    bottom: -120px;
+    left: 0;
+  }
+}
+
 #header {
   height: 100vh;
   margin-bottom: 100px;
@@ -10,44 +76,64 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100%;
-  padding: 200px 0;
 }
 
-.pink-portrait {
-  background-color: #FFD6D6;
-  height: 500px;
-  width: 60%;
-  border-top-left-radius: 1000px;
-  border-top-right-radius: 1000px;
+.center-content {
   position: relative;
+  width: 75%;
+  display: flex;
+  justify-content: center;
 }
 
-.pink-portrait h1 {
+.pink-image {
+  width: 80%;
+  position: relative;
+  display: inline-block;
+}
+
+.center-content img {
+  width: 100%;
+}
+
+.vertical-text {
   position: absolute;
-  bottom: 130px;
-  left: -180px;
-  transform: rotate(-90deg);
-  font-size: 64px;
 }
 
-.pink-portrait h3 {
+.center-content h2 {
+  top: 0;
+  left: 0;
   position: absolute;
-  bottom: 55px;
-  left: -130px;
-  transform: rotate(-90deg);
 }
 
-#banner img {
-  height: 600px;
-  position: absolute;
-  bottom: 0;
-}
-
-#banner h1, h2, h3 {
+.center-content h1, h2, h3 {
   color: #A0BAA6;
   font-weight: bolder;
 }
 
-#banner h2 {
-  margin-left: 350px;
+/* Button */
+.about-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #A0BAA6;
+  border-radius: 50%;
+  width: 18%;
+  height: 30%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #FFF6EB;
+}
+
+.about-button:hover {
+  background-color: #FFF6EB;
+  border: 5px solid #A0BAA6;
+  color: #A0BAA6;
+}
+
+.about-button p {
+  margin: 0;
 }
