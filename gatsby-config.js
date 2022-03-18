@@ -8,4 +8,16 @@ module.exports = {
   /* Your site config here */
   plugins: [`gatsby-plugin-react-helmet`],
   plugins: [`gatsby-plugin-fontawesome-css`],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Lora`,
+          `Dosis\:200,400`
+        ],
+        display: 'swap'
+      }
+    }
+  ],
 }

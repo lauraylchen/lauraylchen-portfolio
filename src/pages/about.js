@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaLinkedin } from 'react-icons/fa';
 
 export default function About() {
   return (
@@ -20,8 +21,10 @@ export default function About() {
         </p>
         <br></br>
         <a href="https://www.linkedin.com/in/lauraylchen/" target="_blank">
-          <p>Checkout my Linkedin Profile</p>
-          <i class="fab fa-linkedin"></i>
+          <div className='linkedin-link d-flex justify-content-between'>
+            <FaLinkedin />
+            <p>Checkout my Linkedin Profile</p>
+          </div>
         </a>
       </div>
     </div>

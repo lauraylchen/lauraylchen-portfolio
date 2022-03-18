@@ -1,3 +1,33 @@
+@media (min-width: 992px) {
+  .about-text h1 {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .about-text h1 {
+    font-size: 42px;
+  }
+
+  .about-text h2 {
+    font-size: 24px;
+  }
+
+  .about-text h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .about-text h2 {
+    font-size: 18px;
+  }
+
+  .about-text h3 {
+    font-size: 16px;
+  }
+}
+
 #about {
   padding-top: 100px;
   height: 100vh;
@@ -12,6 +42,7 @@
 .about-text h1 {
   color: #A0BAA6;
   margin: 0;
+  font-weight: bolder;
 }
 
 .about-text h3 {
@@ -20,12 +51,18 @@
 
 .about-text a {
   text-decoration: none;
-  color: #FFF6EB;
-  text-shadow: 1px 1px #D2D6DA;
+  color: #A0BAA6;
 }
 
 .about-text a:hover {
   text-decoration: none;
-  color: #A0BAA6;
-  text-shadow: none;
+  color: #FFF6EB;
+}
+
+.about-text svg {
+  font-size: 25px;
+}
+
+.linkedin-link {
+  width: 290px;
 }
