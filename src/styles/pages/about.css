@@ -1,0 +1,31 @@
+#about {
+  padding-top: 100px;
+  height: 100vh;
+}
+
+.about-text {
+  background-color: #FFD6D6;
+  padding: 65px;
+  border-radius: 10px;
+}
+
+.about-text h1 {
+  color: #A0BAA6;
+  margin: 0;
+}
+
+.about-text h3 {
+  margin-bottom: 50px;
+}
+
+.about-text a {
+  text-decoration: none;
+  color: #FFF6EB;
+  text-shadow: 1px 1px #D2D6DA;
+}
+
+.about-text a:hover {
+  text-decoration: none;
+  color: #A0BAA6;
+  text-shadow: none;
+}

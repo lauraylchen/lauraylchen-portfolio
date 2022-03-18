@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
+    "font-awesome": "^4.7.0",
     "gatsby": "^4.9.3",
+    "gatsby-plugin-fontawesome-css": "^1.2.0",
     "gatsby-plugin-react-helmet": "^5.10.0",
     "react": "^17.0.1",
     "react-bootstrap": "^2.2.1",
