@@ -9,8 +9,8 @@
 
   .vertical-text {
     transform: rotate(-90deg);
-    bottom: 110px;
-    left: -190px;
+    bottom: 130px;
+    left: -210px;
   }
 }
 
@@ -66,7 +66,6 @@
 
 #header {
   height: 100vh;
-  margin-bottom: 100px;
 }
 
 #banner {
@@ -86,7 +85,7 @@
 }
 
 .pink-image {
-  width: 80%;
+  width: 82%;
   position: relative;
   display: inline-block;
 }
@@ -97,6 +96,7 @@
 
 .vertical-text {
   position: absolute;
+  text-shadow: 1px 1px #849989;
 }
 
 .center-content h2 {
@@ -126,12 +126,12 @@
   text-decoration: none;
   font-weight: bolder;
   color: #FFF6EB;
+  box-shadow: 2px 2px 5px #84998977;
 }
 
 .about-button:hover {
-  background-color: #FFF6EB;
-  border: 5px solid #A0BAA6;
-  color: #A0BAA6;
+  background-color: #89A991;
+  color: #FFF6EB;
 }
 
 .about-button p {

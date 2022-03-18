@@ -29,8 +29,7 @@
 }
 
 #about {
-  padding-top: 100px;
-  height: 100vh;
+  padding: 100px 0;
 }
 
 .about-text {
@@ -56,7 +55,7 @@
 
 .about-text a:hover {
   text-decoration: none;
-  color: #FFF6EB;
+  color: #89A991;
 }
 
 .about-text svg {
