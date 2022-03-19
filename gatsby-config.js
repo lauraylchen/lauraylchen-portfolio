@@ -8,6 +8,7 @@ module.exports = {
   /* Your site config here */
   plugins: [`gatsby-plugin-react-helmet`],
   plugins: [`gatsby-plugin-fontawesome-css`],
+  plugins: [`gatsby-plugin-netlify`],
   plugins: [
     {
       resolve: `gatsby-plugin-google-fonts`,

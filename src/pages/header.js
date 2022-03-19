@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from "../components/navbar"
-import profile from "../images/profile.png"
+// import profile from "../images/profile.png"
 
 export default function Header() {
   return (
@@ -14,7 +14,7 @@ export default function Header() {
               <h2>Hi, that's Me!</h2>
 
               <div className='pink-image'>
-                <img src={profile} alt="Portrait of Laura"/>
+                <img src="../images/profile.png" alt="Portrait of Laura"/>
 
                 <div className='vertical-text'>
                   <h3>FULL-STACK</h3>
