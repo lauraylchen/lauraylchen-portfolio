@@ -105,7 +105,9 @@
   position: absolute;
 }
 
-.center-content h1, h2, h3 {
+.center-content h1,
+.center-content h2,
+.center-content h3 {
   color: #A0BAA6;
   font-weight: bolder;
 }

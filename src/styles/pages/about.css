@@ -30,6 +30,7 @@
 
 #about {
   padding: 100px 0;
+  min-height: 100vh;
 }
 
 .about-text {
@@ -38,8 +39,13 @@
   border-radius: 10px;
 }
 
-.about-text h1 {
+.about-text h1,
+.about-text h2,
+.about-text h3 {
   color: #A0BAA6;
+}
+
+.about-text h1 {
   margin: 0;
   font-weight: bolder;
 }
