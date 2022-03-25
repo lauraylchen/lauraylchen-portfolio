@@ -7,7 +7,7 @@ export default function About() {
       <div className='about-text'>
         <h2>WHO AM I</h2>
         <h1>Laura You-Li Chen</h1>
-        <h3>Full Stack Developer</h3>
+        <h3>FULL-STACK DEVELOPER</h3>
         <p>
           Newly graduated from Le Wagon bootcamp, I chose web development because
           it requires technology, art and design all at once, which is what I am

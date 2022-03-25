@@ -1,6 +1,15 @@
 @media (min-width: 992px) {
   .about-text h1 {
-    font-size: 64px;
+    font-size: 48px;
+  }
+
+  .about-text h2 {
+    font-size: 36px;
+  }
+
+  .about-text h3 {
+    font-size: 18px;
+    font-weight: bolder;
   }
 }
 
@@ -34,15 +43,18 @@
 }
 
 .about-text {
-  background-color: #FFD6D6;
+  background-color: #A0BAA7;
   padding: 65px;
   border-radius: 10px;
 }
 
+.about-text h2 {
+  color: #678E72;
+}
+
 .about-text h1,
-.about-text h2,
 .about-text h3 {
-  color: #A0BAA6;
+  color: #FFF6EB;
 }
 
 .about-text h1 {
@@ -56,12 +68,12 @@
 
 .about-text a {
   text-decoration: none;
-  color: #A0BAA6;
+  color: #678E72;
 }
 
 .about-text a:hover {
   text-decoration: none;
-  color: #89A991;
+  color: #18231B;
 }
 
 .about-text svg {

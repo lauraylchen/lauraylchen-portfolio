@@ -7,12 +7,13 @@
 }
 
 #navbar a {
-  color: #271619;
-  font-weight: bold;
+  color: #7D6B58;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 #navbar a:hover {
-  color: #89A991;
+  color: #271619;
 }
 
 #navbar .navbar-links {

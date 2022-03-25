@@ -16,7 +16,7 @@ h2, h3 {
   font-weight: 200;
 }
 
-p {
+p, a {
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
 }
