@@ -14,7 +14,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Lora`,
+          `Ubuntu`,
           `Dosis\:200,400`
         ],
         display: 'swap'
