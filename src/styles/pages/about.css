@@ -1,5 +1,23 @@
 @media (min-width: 992px) {
   .about-text h1 {
+    font-size: 56px;
+  }
+
+  .about-text h2 {
+    font-size: 42px;
+  }
+
+  .about-text h4 {
+    font-size: 24px;
+  }
+
+  .about-text {
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .about-text h1 {
     font-size: 48px;
   }
 
@@ -7,33 +25,34 @@
     font-size: 36px;
   }
 
-  .about-text h3 {
-    font-size: 18px;
-    font-weight: bolder;
+  .about-text h4 {
+    font-size: 22px;
+  }
+
+  .about-text {
+    border-radius: 10px;
   }
 }
 
-@media (min-width: 576px) and (max-width: 991.98px) {
+@media (max-width: 575.98px) {
   .about-text h1 {
     font-size: 42px;
   }
 
   .about-text h2 {
-    font-size: 24px;
+    font-size: 32px;
   }
 
-  .about-text h3 {
+  .about-text h4 {
     font-size: 20px;
   }
-}
 
-@media (max-width: 575.98px) {
-  .about-text h2 {
-    font-size: 18px;
+  #about {
+    background-color: #A0BAA6;
   }
 
-  .about-text h3 {
-    font-size: 16px;
+  .about-text {
+    border-radius: 0;
   }
 }
 
@@ -43,9 +62,8 @@
 }
 
 .about-text {
-  background-color: #A0BAA7;
+  background-color: #A0BAA6;
   padding: 65px;
-  border-radius: 10px;
 }
 
 .about-text h2 {
@@ -53,33 +71,34 @@
 }
 
 .about-text h1,
-.about-text h3 {
+.about-text h4 {
   color: #FFF6EB;
 }
 
 .about-text h1 {
   margin: 0;
-  font-weight: bolder;
 }
 
-.about-text h3 {
+.about-text h4 {
   margin-bottom: 50px;
 }
 
 .about-text a {
-  text-decoration: none;
   color: #678E72;
 }
 
 .about-text a:hover {
-  text-decoration: none;
   color: #18231B;
 }
 
-.about-text svg {
-  font-size: 25px;
+.linkedin-link svg {
+  font-size: 24px;
 }
 
-.linkedin-link {
-  width: 290px;
+.linkedin-link p {
+  display: inline-block;
+  padding-left: 5px;
+  font-size: 24px;
+  margin-bottom: 0;
+  vertical-align: middle;
 }

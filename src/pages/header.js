@@ -11,14 +11,14 @@ export default function Header() {
         <div className="container">
           <div className='d-flex justify-content-center'>
             <div className='center-content'>
-              <h2>Hi, that's Me!</h2>
+              <h3>Hi, that's Me!</h3>
 
-              <div className='pink-image'>
+              <div className='profile-image'>
                 <img src={profile} alt="Portrait of Laura"/>
 
                 <div className='vertical-text'>
-                  <h3>FULL-STACK</h3>
-                  <h1>DEVELOPER</h1>
+                  <h4>FULL-STACK</h4>
+                  <h2>DEVELOPER</h2>
                 </div>
               </div>
 

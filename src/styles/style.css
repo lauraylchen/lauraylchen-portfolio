@@ -3,15 +3,12 @@ main {
   color: #271619;
 }
 
-p {
-  font-size: 20px;
-}
-
 h1 {
   font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
 }
 
-h2, h3 {
+h2, h3, h4 {
   font-family: 'Dosis', sans-serif;
   font-weight: 200;
 }
@@ -19,4 +16,13 @@ h2, h3 {
 p, a {
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }

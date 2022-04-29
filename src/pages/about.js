@@ -7,7 +7,7 @@ export default function About() {
       <div className='about-text'>
         <h2>WHO AM I</h2>
         <h1>Laura You-Li Chen</h1>
-        <h3>FULL-STACK DEVELOPER</h3>
+        <h4>FULL-STACK DEVELOPER</h4>
         <p>
           Newly graduated from Le Wagon bootcamp, I chose web development because
           it requires technology, art and design all at once, which is what I am
@@ -21,7 +21,7 @@ export default function About() {
         </p>
         <br></br>
         <a href="https://www.linkedin.com/in/lauraylchen/" target="_blank">
-          <div className='linkedin-link d-flex justify-content-between'>
+          <div className='linkedin-link'>
             <FaLinkedin />
             <p>Checkout my Linkedin Profile</p>
           </div>

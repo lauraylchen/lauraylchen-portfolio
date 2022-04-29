@@ -3,14 +3,27 @@
     padding: 100px 0;
   }
 
-  .center-content h1 {
+  .center-content {
+    width: 75%;
+  }
+
+  .center-content h2 {
     font-size: 64px;
+  }
+
+  .center-content h3 {
+    font-size: 36px;
+    left: 0;
+  }
+
+  .center-content h4 {
+    font-size: 20px;
   }
 
   .vertical-text {
     transform: rotate(-90deg);
-    bottom: 130px;
-    left: -210px;
+    bottom: 120px;
+    left: -185px;
   }
 }
 
@@ -19,20 +32,25 @@
     padding: 200px 0;
   }
 
-  .center-content h1 {
-    font-size: 42px;
+  .center-content {
+    width: 90%;
   }
 
   .center-content h2 {
-    font-size: 24px;
+    font-size: 56px;
   }
 
   .center-content h3 {
-    font-size: 20px;
+    font-size: 28px;
+    left: 15px;
+  }
+
+  .center-content h4 {
+    font-size: 18px;
   }
 
   .about-button p {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .vertical-text {
@@ -46,16 +64,25 @@
     padding: 200px 0;
   }
 
+  .center-content {
+    width: 90%;
+  }
+
   .center-content h2 {
-    font-size: 18px;
+    font-size: 48px;
   }
 
   .center-content h3 {
+    font-size: 24px;
+    left: 20px;
+  }
+
+  .center-content h4 {
     font-size: 16px;
   }
 
   .about-button p {
-    font-size: 6px;
+    font-size: 10px;
   }
 
   .vertical-text {
@@ -79,12 +106,11 @@
 
 .center-content {
   position: relative;
-  width: 75%;
   display: flex;
   justify-content: center;
 }
 
-.pink-image {
+.profile-image {
   width: 82%;
   position: relative;
   display: inline-block;
@@ -96,18 +122,23 @@
 
 .vertical-text {
   position: absolute;
-  text-shadow: 1px 1px #849989;
+  text-shadow: 1px 1px #89A991;
 }
 
-.center-content h2 {
-  top: 0;
-  left: 0;
-  position: absolute;
-}
-
-.center-content h1,
 .center-content h2,
+.center-content h4 {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+
 .center-content h3 {
+  position: absolute;
+  top: 0;
+}
+
+.center-content h2,
+.center-content h3,
+.center-content h4 {
   color: #A0BAA6;
   font-weight: bolder;
 }
