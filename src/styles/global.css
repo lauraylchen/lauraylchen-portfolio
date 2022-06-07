@@ -1,5 +1,6 @@
 @import 'style.css';
 @import 'components/navbar.css';
+@import 'components/project_card.css';
 @import 'pages/header.css';
 @import 'pages/about.css';
 @import 'pages/technology.css';
