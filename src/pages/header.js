@@ -17,7 +17,7 @@ export default function Header() {
                 <img src={profile} alt="Portrait of Laura"/>
 
                 <div className='vertical-text'>
-                  <h4>FULL-STACK</h4>
+                  <h4>FRONT-END</h4>
                   <h2>DEVELOPER</h2>
                 </div>
               </div>
