@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/footer";
 
 export default function Contact() {
   return (
@@ -7,6 +8,7 @@ export default function Contact() {
         <h2>CONTACT ME!</h2>
         <h3>Send me a message and I'll get in touch shortly, or feel free to reach out on Twitter/Linkedin</h3>
       </div>
+      <Footer />
     </div>
   )
 }
