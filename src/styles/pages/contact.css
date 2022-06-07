@@ -1,4 +1,57 @@
+@media (min-width: 992px) {
+  #contact h2 {
+    font-size: 42px;
+  }
+
+  #contact h3 {
+    font-size: 32px;
+  }
+
+  .contact-text {
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  #contact h2 {
+    font-size: 36px;
+  }
+
+  #contact h3 {
+    font-size: 28px;
+  }
+
+  .contact-text {
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #contact h2 {
+    font-size: 32px;
+  }
+
+  #contact h3 {
+    font-size: 24px;
+  }
+
+  #contact {
+    background-color: #A0BAA6;
+  }
+
+  .contact-text {
+    border-radius: 0;
+  }
+}
+
 #contact {
   padding: 100px 0;
   min-height: 100vh;
+}
+
+.contact-text {
+  background-color: #A0BAA6;
+  padding: 65px;
+  max-width: 100vh;
+  margin: auto;
 }
