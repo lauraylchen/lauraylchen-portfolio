@@ -42,6 +42,10 @@
   .contact-text {
     border-radius: 0;
   }
+
+  .icons, .btn-white {
+    margin: 0 auto;
+  }
 }
 
 #contact {
@@ -69,7 +73,7 @@
   border: 3px solid #18231B;
 }
 
-.fa-icons {
+.fa-icon {
   color: #678E72;
   font-size: 2em;
   padding-left: 0.25em;
