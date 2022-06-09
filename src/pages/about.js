@@ -9,8 +9,7 @@ export default function About() {
         <h1>Laura You-Li Chen</h1>
         <h4>FRONT-END DEVELOPER</h4>
         <p>
-          Currently, I am freelancing as a front-end developer and helping out as
-          a teacher assistant at Le Wagon bootcamp.
+          Currently, I am freelancing and helping out as a teacher assistant at Le Wagon bootcamp.
         </p>
         <br />
         <p>
