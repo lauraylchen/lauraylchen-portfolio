@@ -1,7 +1,7 @@
 import React from "react";
-import frontend from "../images/frontend.png"
-import more from "../images/more.png"
-import backend from "../images/backend.png"
+import frontend from "../images/frontend.png";
+import more from "../images/more.png";
+import backend from "../images/backend.png";
 
 export default function Technology() {
   return (

@@ -9,12 +9,17 @@ export default function About() {
         <h1>Laura You-Li Chen</h1>
         <h4>FRONT-END DEVELOPER</h4>
         <p>
+          Currently, I am freelancing as a front-end developer and helping out as
+          a teacher assistant at Le Wagon bootcamp.
+        </p>
+        <br />
+        <p>
           Newly graduated from Le Wagon bootcamp, I chose web development because
           it requires technology, art and design all at once, which is what I am
           passionate about. At the same time, I strongly believe that any project
           could be develop with teamwork and strong communication.
         </p>
-        <br></br>
+        <br />
         <p>
           From my previous jobs, I have kept my excellent customer service, knowing
           how to work under pressure and being a team player.
