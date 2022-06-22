@@ -12,19 +12,11 @@
   #projects h2 {
     font-size: 36px;
   }
-
-  .project-card {
-    margin: auto;
-  }
 }
 
 @media (max-width: 575.98px) {
   #projects h2 {
     font-size: 32px;
-  }
-
-  .project-card {
-    margin: auto;
   }
 }
 

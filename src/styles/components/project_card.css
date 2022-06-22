@@ -1,9 +1,26 @@
+@media (min-width: 992px) {
+  .project-card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .project-card {
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .project-card {
+    margin: 10px auto;
+  }
+}
+
 .project-card {
   border: 4px solid #7D6B58;
   border-radius: 10px;
   width: 350px;
   height: 550px;
-  margin-bottom: 20px;
   box-shadow: 3px 3px 10px #7d6b582b;
 }
 

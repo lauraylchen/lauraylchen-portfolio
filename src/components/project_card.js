@@ -19,7 +19,7 @@ export default function ProjectCard() {
             <div className='p-4 d-flex flex-column justify-content-between web-info'>
               <h3>Seamify</h3>
               <p className='web-about'>
-                Seamify is a web app that pairs users with local seamstresses to give a new life to your old clothes.
+                Seamify is a web app that pairs users with local seamstresses to give a new life to your old clothes. (Desktop screen only)
               </p>
               <p className='tool-used'>
                 Ruby on Rails | HTML | SCSS | JS | Bootstrap | Figma | Heroku | PostgreSQL | Mapbox | Cloudinary
@@ -41,7 +41,7 @@ export default function ProjectCard() {
             <div className='p-4 d-flex flex-column justify-content-between web-info'>
               <h3>Zoo4U</h3>
               <p className='web-about'>
-                Zoo4u is a kick off that is inspired by Airbnb. It allows people to rent and lend out their animals for a period of time.
+                Zoo4u is a kick off that is inspired by Airbnb. It allows people to rent and lend out their animals for a period of time. (Desktop screen only)
               </p>
               <p className='tool-used'>
                 Ruby on Rails | HTML | SCSS | JS | Bootstrap | Heroku | PostgreSQL | Cloudinary
