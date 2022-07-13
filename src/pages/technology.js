@@ -35,11 +35,13 @@ export default function Technology() {
                 <ul>
                   <li>Bootstrap</li>
                   <li>CSS</li>
+                  <li>DaisyUI</li>
                   <li>Figma</li>
                   <li>HTML</li>
                   <li>Javascript</li>
                   <li>React</li>
                   <li>SASS</li>
+                  <li>TailwindCSS</li>
                 </ul>
               </div>
             </div>
@@ -58,6 +60,7 @@ export default function Technology() {
                   <li>Github</li>
                   <li>Heroku</li>
                   <li>Mapbox</li>
+                  <li>Netlify</li>
                   <li>Npm</li>
                   <li>VSCode</li>
                   <li>Webpack</li>
