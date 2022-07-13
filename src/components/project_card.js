@@ -2,6 +2,7 @@ import React from 'react'
 import seamify_landing_page from "../images/projects_screenshots/seamify_landing_page.jpg";
 import zoo4u_landing_page from "../images/projects_screenshots/zoo4u_landing_page.png";
 import sunnyside_landing_page from "../images/projects_screenshots/sunnyside_landing_page.png";
+import pokemon_match_landing_page from "../images/projects_screenshots/pokemon_match_landing_page.png";
 
 
 export default function ProjectCard() {
@@ -73,6 +74,28 @@ export default function ProjectCard() {
               <div className='d-flex justify-content-center'>
                 <a href='https://sunnysideagencychallenge.netlify.app' target="_blank" className='btn-brown'>VISIT</a>
                 <a href='https://github.com/lauraylchen/sunnyside-agency-landing-page' target="_blank" className='btn-brown'>CODE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='col-12 col-lg-6 px-4'>
+          <div className='project-card'>
+            <div className='landing-image'>
+              <a href="https://pokemon-match-cards.netlify.app" target="_blank">
+                <img src={pokemon_match_landing_page} alt="Landing page of Pokemon Match" />
+              </a>
+            </div>
+            <div className='p-4 d-flex flex-column justify-content-between web-info'>
+              <h3>Pokemon Match</h3>
+              <p className='web-about'>
+                Matching card game with Pokemon theme.
+              </p>
+              <p className='tool-used'>
+                React | HTML | CSS | JS | TailwindCSS | Daisy UI | Netlify
+              </p>
+              <div className='d-flex justify-content-center'>
+                <a href='https://pokemon-match-cards.netlify.app' target="_blank" className='btn-brown'>VISIT</a>
+                <a href='https://github.com/lauraylchen/magic-memory' target="_blank" className='btn-brown'>CODE</a>
               </div>
             </div>
           </div>
