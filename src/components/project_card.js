@@ -42,10 +42,10 @@ export default function ProjectCard() {
             <div className='p-4 d-flex flex-column justify-content-between web-info'>
               <h3>Cooking Ninja</h3>
               <p className='web-about'>
-                Recipes Repository Website with theme selectors(dark/light mode). List all, search and save a new recipe.
+                Recipes Repository Website with theme selectors (dark/light mode). List all, search and save a new recipe.
               </p>
               <p className='tool-used'>
-                React | HTML | CSS | JS | Netlify | Heroku(JSON SERVER DATABASE)
+                React | HTML | CSS | JS | Netlify | Heroku ( JSON SERVER DATABASE )
               </p>
               <div className='d-flex justify-content-center'>
                 <a href='https://cooking-ninja-recipes.netlify.app' target="_blank" className='btn-brown'>VISIT</a>
