@@ -4,6 +4,7 @@ import cooking_ninja_landing_page from "../images/projects_screenshots/cooking_n
 import sunnyside_landing_page from "../images/projects_screenshots/sunnyside_landing_page.png";
 import pokemon_match_landing_page from "../images/projects_screenshots/pokemon_match_landing_page.png";
 import mymoney_landing_page from "../images/projects_screenshots/mymoney_landing_page.png";
+import thedojo_landing_page from "../images/projects_screenshots/thedojo_landing_page.png";
 
 
 export default function ProjectCard() {
@@ -126,26 +127,26 @@ export default function ProjectCard() {
           </div>
         </div>
         <div className='col-12 col-lg-6 px-4'>
-          {/*<div className='project-card'>
+          <div className='project-card'>
             <div className='landing-image'>
-              <a href="https://pokemon-match-cards.netlify.app" target="_blank">
-                <img src={pokemon_match_landing_page} alt="Landing page of Pokemon Match" />
+              <a href="https://thedojo-app.web.app" target="_blank">
+                <img src={thedojo_landing_page} alt="Landing page of The Dojo" />
               </a>
             </div>
             <div className='p-4 d-flex flex-column justify-content-between web-info'>
-              <h3>Pokemon Match</h3>
+              <h3>The Dojo</h3>
               <p className='web-about'>
-                Matching card game with Pokemon theme.
+                Project Management Site. (Desktop screen only)
               </p>
               <p className='tool-used'>
-                React | HTML | CSS | JS | TailwindCSS | Daisy UI | Netlify
+                React | HTML | CSS | JS | FireBase | Firestore | Date-FNS
               </p>
               <div className='d-flex justify-content-center'>
-                <a href='https://pokemon-match-cards.netlify.app' target="_blank" className='btn-brown'>VISIT</a>
-                <a href='https://github.com/lauraylchen/magic-memory' target="_blank" className='btn-brown'>CODE</a>
+                <a href='https://thedojo-app.web.app' target="_blank" className='btn-brown'>VISIT</a>
+                <a href='https://github.com/lauraylchen/the-dojo' target="_blank" className='btn-brown'>CODE</a>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
