@@ -18,6 +18,7 @@ export default function Technology() {
               <div class="flip-card-back">
                 <ul>
                   <li>ActiveRecord</li>
+                  <li>Nodejs</li>
                   <li>PostgreSQL</li>
                   <li>Rails</li>
                   <li>Ruby</li>
@@ -55,6 +56,7 @@ export default function Technology() {
               <div class="flip-card-back">
                 <ul>
                   <li>Cloudinary</li>
+                  <li>Firebase</li>
                   <li>Gatsby</li>
                   <li>Git</li>
                   <li>Github</li>
