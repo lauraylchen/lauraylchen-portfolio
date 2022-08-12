@@ -136,7 +136,7 @@ export default function ProjectCard() {
             <div className='p-4 d-flex flex-column justify-content-between web-info'>
               <h3>The Dojo</h3>
               <p className='web-about'>
-                Project Management Site. (Desktop screen only)
+                Project Management Site. (Desktop screen only) Login to test: ( email: mario@dojo.com / password: test123456 )
               </p>
               <p className='tool-used'>
                 React | HTML | CSS | JS | FireBase | Firestore | Date-FNS
